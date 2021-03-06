@@ -1,4 +1,4 @@
-# 6th of 9 courses
+# 6th of 9 courses...
 
 library(tidyverse)
 library(dslabs)
