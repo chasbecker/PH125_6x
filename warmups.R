@@ -25,3 +25,8 @@ XlFile <- file.path("C:", "Users", "Charles", "OneDrive", "Desktop", "TempStuff"
 SheetList <- excel_sheets(XlFile)
 length(SheetList)
 for (i in 1:length(SheetList)){print(paste(i,SheetList[i],sep=": "))}
+
+# assessment 1 Part 2
+
+URLStr <- "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data"
+URLdf <- read_csv(URLStr, col_names = FALSE)
