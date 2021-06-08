@@ -1,4 +1,4 @@
-# USA - - - Covid-19 - - - VaccineRates - - - Outcomes
+# USA - - - Covid-19 - - - VaccineRates - - - Outcomes xyz
 # data from https://www.nytimes.com/interactive/2021/us/covid-cases.html (accessed 04/14/2021)
 # "FullyVac" is the independent variable
 # "CasesPer100K" and "DailyDeathPer100K" are dependent variables
