@@ -1,12 +1,13 @@
 # 6th of 9 courses...
+install.packages('tidyverse')
 
 library(tidyverse)
 library(readxl)
 library(dslabs)
 
-# MyName <- readline("Okay, so what's your name? ")
-# print(paste("Then let's get started, ", MyName, sep=""))
-# readline("Tap any key to continue on to the course....")
+MyName <- readline("Okay, so what's your name? ")
+print(paste("Then let's get started, ", MyName, sep=""))
+readline("Tap any key to continue on to the course....")
 
 path <- system.file("extdata", package = "dslabs")
 files <- list.files(path)
